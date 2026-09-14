@@ -16,8 +16,7 @@ Commission Rate = 0.30
 
 The format of these data files is:
 
-# header lines (comment, start with "#"): instance ID, Index, Sampled Group No.,
-  Experiment Seed, Commission Rate, K, R, S
+header lines (comment, start with "#"): instance ID, Index, Sampled Group No.,Experiment Seed, Commission Rate, K, R, S
 [mapping] vehicle new-index → global-index (K entries):
   local vehicle index k (k = 0, ..., K-1) → global vehicle index in the 500-vehicle pool
 [mapping] task new-index → global-index (R entries):
